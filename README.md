@@ -1,37 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <style>
-    .container {
-      display: flex;
-      align-items: flex-start;
-    }
-    .left {
-      flex-shrink: 0;
-    }
-    .right {
-      margin-left: 20px;
-      display: grid;
-      grid-template-rows: 1fr 1fr 1fr; /* Divide into 3 rows */
-      gap: 5px; /* Add some spacing between sections */
-    }
-    .svg-container {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
-</head>
 <body>
-  <div class="container">
-    <div class="left">
-      <embed src="https://root-me-diff.vercel.app/rm-gh?nickname=AxFrancois-762406&style=dark&gstats=show" type="image/svg+xml" class="svg-container">
+  <div style="display: flex; align-items: flex-start;">
+    <!-- Left Side -->
+    <div style="flex-shrink: 0;">
+      <embed src="https://root-me-diff.vercel.app/rm-gh?nickname=AxFrancois-762406&style=dark&gstats=show"
+             type="image/svg+xml"
+             style="max-width: 100%; height: auto;">
     </div>
-    <div class="right">
-      <div class="sub-part">
-        <img height=200 src="https://github-readme-stats.vercel.app/api?username=AxFrancois&show_icons=true&theme=merko&rank_icon=github&hide_border=true"/>
-        <img height=200 src="https://github-readme-stats.vercel.app/api/top-langs/?username=AxFrancois&hide=PHP,XSLT,Cython&layout=compact&langs_count=8&theme=merko&hide_border=true"/>
+    <!-- Right Side -->
+    <div style="margin-left: 20px; display: grid; grid-template-rows: auto auto; gap: 10px;">
+      <!-- First Sub-part -->
+      <div style="display: flex; gap: 10px;">
+        <img height="200" src="https://github-readme-stats.vercel.app/api?username=AxFrancois&show_icons=true&theme=merko&rank_icon=github&hide_border=true"/>
+        <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AxFrancois&hide=PHP,XSLT,Cython&layout=compact&langs_count=8&theme=merko&hide_border=true"/>
       </div>
-      <div class="sub-part">
+      <!-- Second Sub-part -->
+      <div>
         <h3>Hi there 👋</h3>
         <p>Cybersecurity & network engineer.</p>
       </div>
