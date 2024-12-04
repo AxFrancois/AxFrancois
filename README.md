@@ -4,9 +4,7 @@
   <div style="display: flex; align-items: flex-start;">
     <!-- Left Side -->
     <div style="flex-shrink: 0;">
-      <embed src="https://root-me-diff.vercel.app/rm-gh?nickname=AxFrancois-762406&style=dark&gstats=show"
-             type="image/svg+xml"
-             style="max-width: 100%; height: auto;">
+      <img src="https://root-me-diff.vercel.app/rm-gh?nickname=AxFrancois-762406&style=dark&gstats=show"/>
     </div>
     <!-- Right Side -->
     <div style="margin-left: 20px; display: grid; grid-template-rows: auto auto; gap: 10px;">
