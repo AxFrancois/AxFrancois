@@ -4,7 +4,9 @@
   <div style="display: flex; align-items: flex-start;">
     <!-- Left Side -->
     <div style="flex-shrink: 0;">
-      <img src="https://root-me-diff.vercel.app/rm-gh?nickname=AxFrancois-762406&style=dark&gstats=show"/>
+      <a href="https://www.root-me.org/AxFrancois-762406">
+        <img src="https://root-me-diff.vercel.app/rm-gh?nickname=AxFrancois-762406&style=dark&gstats=show"/>
+      </a>
     </div>
     <!-- Right Side -->
     <div style="margin-left: 20px; display: grid; grid-template-rows: auto auto; gap: 10px;">
